@@ -91,7 +91,7 @@ export default function Dashboard() {
         setAvailableDates(dates)
         
         if (dates.length > 0) {
-          setSelectedDate(dates[dates.length - 1]) // Set to most recent date by default
+          setSelectedDate(dates[dates.length - 1]) 
         }
         
         setLoading(false)
